@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil Instagram</title>
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/custom.css">
+  <!-- Icon Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <style>
+   /* Semua foto feed jadi ukuran pixel sama */
+.row.g-1 img {
+  width: 500px;        
+  height: 300px;       
+  object-fit: cover;   
+  display: block;
+  margin: 0 auto;      
+}
+  </style>
+</head>
+<body class="bg-dark text-white">
+
+  <!-- Header Profil -->
+  <header class="container py-3 border-bottom border-secondary">
+    <div class="d-flex align-items-center">
+      <!-- Foto Profil -->
+      <div class="me-3">
+        <img src="fotosaya.jpg" class="rounded-circle" width="90" height="90" alt="Foto Profil">
+      </div>
+      <!-- Statistik -->
+      <div class="flex-grow-1 d-flex justify-content-around text-center">
+        <div>
+          <strong>12</strong><br><small>Postingan</small>
+        </div>
+        <div>
+          <strong>12.000</strong><br><small>Pengikut</small>
+        </div>
+        <div>
+          <strong>7000</strong><br><small>Mengikuti</small>
+        </div>
+      </div>
+    </div>
+    <!-- Username -->
+    <div class="mt-2">
+      <h5 class="fw-bold mb-0">krisna</h5>
+      <p class="mb-1">Kriss</p>
+      <p class="text-muted">@krisna AJ</p>
+    </div>
+    <!-- Tombol -->
+    <div class="d-flex gap-2 mt-2">
+      <button class="btn btn-outline-light btn-sm flex-fill">Edit profil</button>
+      <button class="btn btn-outline-light btn-sm flex-fill">Bagikan profil</button>
+      <button class="btn btn-outline-light btn-sm"><i class="bi bi-person-plus"></i></button>
+    </div>
+  </header>
+
+  <!-- Tab Navigasi -->
+  <nav class="d-flex justify-content-center border-top border-bottom border-secondary mt-3">
+    <button class="btn btn-dark flex-fill py-2 border-0">
+      <i class="bi bi-grid-3x3 text-white fs-4"></i>
+    </button>
+    <button class="btn btn-dark flex-fill py-2 border-0">
+      <i class="bi bi-play-btn text-secondary fs-4"></i>
+    </button>
+  </nav>
+
+  <!-- Feed -->
+  <main class="container-fluid px-0">
+    <div class="row g-1">
+      <!-- 12 gambar dummy -->
+      <div class="col-4"><img src="Gambar-UPIN-IPIN.jpg" class="img-fluid" alt="feed1"></div>
+      <div class="col-4"><img src="agen ali.jpg" class="img-fluid" alt="feed2"></div>
+      <div class="col-4"><img src="boboiboy.jpg" class="img-fluid" alt="feed3"></div>
+      <div class="col-4"><img src="sungai.webp" class="img-fluid" alt="feed4"></div>
+      <div class="col-4"><img src="Adudu.webp" class="img-fluid" alt="feed5"></div>
+      <div class="col-4"><img src="foto_profile.jpg" class="img-fluid" alt="feed6"></div>
+      <div class="col-4"><img src="belanda.webp" class="img-fluid" alt="feed7"></div>
+      <div class="col-4"><img src="paris.jpeg" class="img-fluid" alt="feed8"></div>
+      <div class="col-4"><img src="german.jpg" class="img-fluid" alt="feed9"></div>
+      <div class="col-4"><img src="candi.jpg" class="img-fluid" alt="feed10"></div>
+      <div class="col-4"><img src="candi2.jpeg" class="img-fluid" alt="feed11"></div>
+      <div class="col-4"><img src="bromo.jpeg" class="img-fluid" alt="feed12"></div>
+    </div>
+  </main>
+
+  <!-- Footer Navigasi -->
+  <footer class="d-flex justify-content-around align-items-center py-2 border-top border-secondary bg-black position-fixed bottom-0 w-100">
+    <i class="bi bi-house-door fs-4"></i>
+    <i class="bi bi-search fs-4"></i>
+    <i class="bi bi-plus-square fs-4"></i>
+    <i class="bi bi-play-btn fs-4"></i>
+    <img src="assets/img/profile.jpg" class="rounded-circle" width="30" height="30" alt="profil">
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
